@@ -152,7 +152,7 @@ input:focus{
     box-shadow: none !important;
 }
 .btn-primary{
-    color: #f47524 !important;
+    color: #fff !important;
     background-color: var(--primary-color) !important;
     border-radius: 0 !important;
 }
