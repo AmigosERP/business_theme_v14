@@ -83,11 +83,11 @@
 }
 h3.ellipsis.title-text,
 .widget-group .widget-group-head .widget-group-title,
+*/
 .layout-side-section .sidebar-label{
     color: white !important;
 }
 
-*/
 /* Form Input Focus *//*
 
 input:focus{
@@ -231,21 +231,51 @@ header .form-control:focus{
     background-color: var(--white-color) !important;
 }
 
-
-
-/* Sidebar */
-.layout-side-section .sidebar-label{
+/* .desk-sidebar-item.selected .sidebar-item-label,
+.desk-sidebar-item.selected .sidebar-item-label .icon,
+.desk-sidebar-item.selected .sidebar-item-label .icon-md,
+.desk-sidebar-item.selected .sidebar-item-label .icon svg, 
+.desk-sidebar-item.selected .sidebar-item-label .icon use {
+    color: var(--white-color) !important;
+    stroke: var(--white-color) !important;
+} */
+/* Sidebar
+ .layout-side-section .sidebar-label{
     color: var(--primary-color);
 }
-.sidebar-label svg,
-.layout-side-section .sidebar-label .icon{
-    stroke: var(--primary-color);
+ 
+.sidebar-item-icon {
+    color: var(--white-color);
+} */
+
+/* .desk-sidebar-item.selected .sidebar-item-label,
+.desk-sidebar-item.selected .sidebar-item-label .icon,
+.desk-sidebar-item.selected .sidebar-item-label .icon svg, 
+.desk-sidebar-item.selected .sidebar-item-label .icon use {
+  color: white !important;
+} */
+
+/* Make selected sidebar item icons and labels white */
+.desk-sidebar-item.selected .sidebar-item-icon svg {
+    fill: white !important;
+    stroke: white !important;
 }
-.list-sidebar-button{
-    background-color: #c8c4c4 !important;
-    box-shadow: none !important;
+
+.desk-sidebar-item.selected .sidebar-item-label {
+    color: white !important;
 }
-.list-sidebar-button:active,
+
+/* Make navbar icons white */
+.navbar svg,
+.navbar .es-icon svg {
+    fill: white !important;
+    stroke: white !important;
+}
+
+.nav-item span {
+    color: var(--white-color) !important;
+}
+
 .list-sidebar-button:focus{
     text-decoration: none !important;
     box-shadow: none !important;
@@ -313,7 +343,6 @@ symbol#icon-small-down{
     background-color: #f4f4f4;
 }
 
-
 /* Buttons CSS
 .filter-button,
 .sort-selector-button,
@@ -334,4 +363,3 @@ symbol#icon-small-down{
 .filter-button span.filter-icon svg.icon{
     stroke: var(--white-color);
 } */
-
